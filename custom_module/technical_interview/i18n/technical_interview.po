@@ -1,0 +1,152 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* technical_interview
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-04 11:46+0000\n"
+"PO-Revision-Date: 2023-06-04 11:46+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: technical_interview
+#: model:ir.model.fields,field_description:technical_interview.field_postes_vises__active
+msgid "Active"
+msgstr "Active"
+
+#. module: technical_interview
+#: model:ir.ui.menu,name:technical_interview.technical_interview_menu_root
+msgid "Annonces"
+msgstr "Annonces"
+
+#. module: technical_interview
+#: model:ir.model.fields,field_description:technical_interview.field_publications_postes__asign_to
+msgid "Asign To"
+msgstr "Affecter à"
+
+#. module: technical_interview
+#: model:ir.ui.menu,name:technical_interview.technical_interview_conf
+msgid "Configurations"
+msgstr "Configurations"
+
+#. module: technical_interview
+#: model:ir.actions.act_window,name:technical_interview.technical_interview_action_window_conf
+msgid "Configurations "
+msgstr "Configurations"
+
+#. module: technical_interview
+#: model_terms:ir.ui.view,arch_db:technical_interview.form_pub
+msgid "Configurations"
+msgstr "Configurations"
+
+#. module: technical_interview
+#: model:ir.model.fields,field_description:technical_interview.field_postes_vises__create_uid
+#: model:ir.model.fields,field_description:technical_interview.field_publications_postes__create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: technical_interview
+#: model:ir.model.fields,field_description:technical_interview.field_postes_vises__create_date
+#: model:ir.model.fields,field_description:technical_interview.field_publications_postes__create_date
+msgid "Created on"
+msgstr "Créé sur"
+
+#. module: technical_interview
+#: model:ir.model.fields,field_description:technical_interview.field_publications_postes__date
+msgid "Date"
+msgstr "Date"
+
+#. module: technical_interview
+#: model:ir.model.fields,field_description:technical_interview.field_publications_postes__description
+msgid "Description"
+msgstr "Description"
+
+#. module: technical_interview
+#: model:ir.model.fields,field_description:technical_interview.field_postes_vises__display_name
+#: model:ir.model.fields,field_description:technical_interview.field_publications_postes__display_name
+msgid "Display Name"
+msgstr "Afficher un nom"
+
+#. module: technical_interview
+#: model:ir.model.fields,field_description:technical_interview.field_postes_vises__id
+#: model:ir.model.fields,field_description:technical_interview.field_publications_postes__id
+msgid "ID"
+msgstr "ID"
+
+#. module: technical_interview
+#: model:ir.model.fields,field_description:technical_interview.field_postes_vises____last_update
+#: model:ir.model.fields,field_description:technical_interview.field_publications_postes____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: technical_interview
+#: model:ir.model.fields,field_description:technical_interview.field_postes_vises__write_uid
+#: model:ir.model.fields,field_description:technical_interview.field_publications_postes__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: technical_interview
+#: model:ir.model.fields,field_description:technical_interview.field_postes_vises__write_date
+#: model:ir.model.fields,field_description:technical_interview.field_publications_postes__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: technical_interview
+#: model:ir.model.fields,field_description:technical_interview.field_publications_postes__link
+msgid "Link"
+msgstr "Lien"
+
+#. module: technical_interview
+#: model:ir.model.fields,field_description:technical_interview.field_postes_vises__name
+#: model:ir.model.fields,field_description:technical_interview.field_publications_postes__name
+msgid "Name"
+msgstr "Nom"
+
+#. module: technical_interview
+#: model:ir.ui.menu,name:technical_interview.technical_interview_conf_menu
+msgid "Postes visés"
+msgstr "Postes visés"
+
+#. module: technical_interview
+#: model:ir.ui.menu,name:technical_interview.technical_interview_pub
+#: model:ir.ui.menu,name:technical_interview.technical_interview_pub_menu
+msgid "Publications"
+msgstr "Publications"
+
+#. module: technical_interview
+#: model:ir.actions.act_window,name:technical_interview.technical_interview_action_window_pub
+msgid "Publications Postes"
+msgstr "Publications Postes"
+
+#. module: technical_interview
+#: model:ir.model.fields,field_description:technical_interview.field_publications_postes__publisher
+msgid "Publisher"
+msgstr "Publicateur"
+
+#. module: technical_interview
+#: model:ir.model.fields,field_description:technical_interview.field_postes_vises__website
+msgid "Website"
+msgstr "Site web"
+
+#. module: technical_interview
+#: model:ir.model,name:technical_interview.model_postes_vises
+msgid "postes visés"
+msgstr "postes visés"
+
+#. module: technical_interview
+#: model:ir.actions.server,name:technical_interview.ir_cron_scrap_pub_ir_actions_server
+#: model:ir.cron,cron_name:technical_interview.ir_cron_scrap_pub
+#: model:ir.cron,name:technical_interview.ir_cron_scrap_pub
+msgid "scrap publication"
+msgstr "scraping publication"
+
+#. module: technical_interview
+#: model:ir.model,name:technical_interview.model_publications_postes
+msgid "technical_interview.publications.postes"
+msgstr ""

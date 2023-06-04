@@ -1,0 +1,51 @@
+<odoo>
+  <data>
+
+        <record id="technical_interview.tree_conf" model="ir.ui.view">
+          <field name="name">Configurations</field>
+          <field name="model">postes.vises</field>
+          <field name="arch" type="xml">
+             <tree>
+               <field name="name"/>
+               <field name="website"/>
+            </tree>
+          </field>
+        </record>
+
+          <!--    form view-->
+        <record model="ir.ui.view" id="technical_interview.form_pub">
+          <field name="name">Configurations</field>
+          <field name="model">postes.vises</field>
+          <field name="arch" type="xml">
+            <form string="Configurations Form">
+               <sheet>
+                 <group>
+                   <field name="name"/>
+                   <field name="website"/>
+                   <field name="active"/>
+
+                 </group>
+              </sheet>
+            </form>
+
+          </field>
+        </record>
+
+
+        <!-- actions opening views on models -->
+
+        <record model="ir.actions.act_window" id="technical_interview_action_window_conf">
+          <field name="name">Configurations </field>
+          <field name="res_model">postes.vises</field>
+          <field name="view_mode">tree,form</field>
+        </record>
+
+
+        <menuitem name="Configurations" id="technical_interview_conf" parent="technical_interview_menu_root"/>
+
+        <menuitem name="Postes visés" id="technical_interview_conf_menu" parent="technical_interview_conf"
+                  action="technical_interview_action_window_conf"/>
+
+
+  </data>
+</odoo>

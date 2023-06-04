@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<odoo>
+    <data>
+          <record model="ir.rule" id="technical_interview_manager_rule">
+             <field name="name">Manager</field>
+             <field name="model_id" ref="model_publications_postes"></field>
+             <field name="groups" eval="[(4,ref('base.group_manager'))]"></field>
+             <field eval="1" name="perm_read"></field>
+             <field eval="1" name="perm_write"></field>
+             <field eval="1" name="perm_unlink"></field>
+             <field eval="1" name="perm_create"></field>
+             <field name="domain_force">[('1', '=', 1)]</field>
+     </record>
+
+
+        <record model="ir.rule" id="technical_interview_user_rule">
+             <field name="name">User</field>
+             <field name="model_id" ref="model_publications_postes"></field>
+             <field name="groups" eval="[(4,ref('base.group_user'))]"></field>
+             <field eval="1" name="perm_read"></field>
+             <field eval="0" name="perm_write"></field>
+             <field eval="0" name="perm_unlink"></field>
+             <field eval="0" name="perm_create"></field>
+             <field name="domain_force">[('asign_to', '=', user.id)]</field>
+     </record>
+    </data>
+</odoo>
